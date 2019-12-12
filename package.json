@@ -1,0 +1,41 @@
+{
+  "name": "actual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --config scripts/webpack.config.js",
+    "build": "webpack --mode production --config scripts/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blanclang/actual.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blanclang/actual/issues"
+  },
+  "homepage": "https://github.com/Blanclang/actual#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "copy-webpack-plugin": "^5.1.0",
+    "css-loader": "^3.2.1",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.1",
+    "url-loader": "^3.0.0",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ]
+}
