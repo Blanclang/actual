@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --config scripts/webpack.config.js",
-    "build": "webpack --mode production --config scripts/webpack.config.js"
+    "dev": "webpack-dev-server --config scripts/webpack.config.dev.js",
+    "build": "webpack --config scripts/webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/Blanclang/actual#readme",
   "dependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
@@ -36,7 +35,9 @@
     "postcss-loader": "^3.0.0",
     "style-loader": "^1.0.1",
     "url-loader": "^3.0.0",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.9.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "browserslist": [
     "cover 99.5%"
